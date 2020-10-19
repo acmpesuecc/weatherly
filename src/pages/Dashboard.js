@@ -13,6 +13,7 @@ function Dashboard() {
                 Weatherly Dashboard
             </h1>
             This is the dashboard.You should see a searchbar, a picture of the location and time of that location. This should be fun. 
+            <br />
             <a href = "/">Go back</a>
         </>
     );
