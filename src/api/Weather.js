@@ -3,12 +3,12 @@
 */
 
 /*
-    Note: Make sure to make interactions using the JSON format. 
+    Note: Make sure to make interactions using the JSON format.
 */
 
 // TODO: API base url for openweathermap.org
 const BASE_URL = "";
-
+const API_KEY = process.env.OPEN_WEATHER_MAP_API;
 /*
     TODO: Query the endpoint for the json format of weather data for the location.
     parameters : location, and anything else the endpoint requires.
