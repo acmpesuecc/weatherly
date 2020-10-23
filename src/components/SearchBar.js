@@ -5,10 +5,11 @@ import React from 'react'
 */
 
 
-export const SearchBar = () => {
+const SearchBar = () => {
     return (
         <div>
             this is search bar
         </div>
     )
 }
+export default SearchBar;

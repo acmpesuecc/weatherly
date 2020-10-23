@@ -8,4 +8,4 @@ const Navbar = () => {
     )
 }
 
-export const Navbar;
+export default Navbar;
