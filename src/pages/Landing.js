@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Navbar from '../components/Navbar';
 /* 
     Define the landing page component here. This would basically consist of the entire landing page layout that informs the user coming in about what exactly the website does, and guides them to move on to the functionality page of our website.
 */
@@ -8,9 +8,10 @@ import React from 'react';
 function Landing() {
     return (
         <>
-            <h1>
-                Weatherly
-            </h1>
+            <Navbar />
+            <h2>
+                Landing page
+            </h2>
             Welcome to weatherly.
             Here we do a lot of things. 
             <b>
