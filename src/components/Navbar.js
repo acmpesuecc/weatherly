@@ -3,7 +3,6 @@ import {makeStyles} from '@material-ui/core/styles';
 import {AppBar, Toolbar, IconButton, Typography} from '@material-ui/core';
 import {Link} from 'react-router-dom';
 
-import Logo from '../cloudy.png'
 
 const styles = makeStyles((theme) => ({
     wrapper: {
@@ -51,7 +50,7 @@ const Navbar = (props) => {
             color="inherit"
             aria-label="Menu"
         >
-        <img src={Logo} className="img-xxs" height={35} alt="logo weatherly" />
+        <img src={process.env.PUBLIC_URL + '/weatherLogo512.png'} className="img-xxs" height={35} alt="logo weatherly" />
         </IconButton>
         <Typography
             variant="title"
