@@ -53,7 +53,7 @@ const Navbar = (props) => {
         <img src={logo} alt="Weatherly" className="img-xxs" height={20} />
         </IconButton>
         <Typography
-            variant="title"
+            variant="h1"
             color="inherit"
             className={classes.appTitle}
         >
