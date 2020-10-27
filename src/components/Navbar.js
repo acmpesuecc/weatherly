@@ -53,7 +53,7 @@ const Navbar = (props) => {
         <img src={process.env.PUBLIC_URL + '/weatherLogo512.png'} className="img-xxs" height={35} alt="logo weatherly" />
         </IconButton>
         <Typography
-            variant="title"
+            variant="h1"
             color="inherit"
             className={classes.appTitle}
         >
