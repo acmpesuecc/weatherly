@@ -22,8 +22,13 @@ const API_KEY = process.env.OPEN_WEATHER_MAP_API || "13fe6c2601bd7c8549c14a35c72
  */
 const GET_WEATHER = async ({ cityName, stateCode = '', countryCode = '' }) => {
     const url = `${BASE_URL}/weather?appid=${API_KEY}&q=${cityName},${stateCode},${countryCode}`
-    let response = await axios.get(url)
-    if (response) { response = JSON.parse(response) }
+    let response
+    try {
+        response = await axios.get(url)
+        response = response && response.data
+    } catch (error) {
+        response = { error }
+    }
     return response
 };
 
