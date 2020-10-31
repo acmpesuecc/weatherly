@@ -50,7 +50,7 @@ const Navbar = (props) => {
             color="inherit"
             aria-label="Menu"
         >
-        <img src={process.env.PUBLIC_URL + '/weatherLogo512.png'} className="img-xxs" height={35} alt="logo weatherly" />
+        <img src={process.env.PUBLIC_URL + '/logoDesigns/weatherLogo512.png'} className="img-xxs" height={35} alt="logo weatherly" />
         </IconButton>
         <Typography
             variant="h1"
